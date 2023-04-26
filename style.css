@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Permanent+Marker&family=Satisfy&display=swap');
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*HEADER*/
+@font-face {
+    font-family: CQMono;
+    src: url(fonte/CQMono.otf);
+}
+.logo{  
+    display: block;
+    text-align: center;
+    line-height: 75px;
+    height: 150px;  
+    align-items: center;
+    font-size: 80px;
+    font-family: 'CQMono';
+    border-bottom: 5px solid #57b9af39;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+.logo-2{
+    font-family: 'Satisfy', cursive;
+    color: #038C73;
+}
+.l{
+    color:#038C73; 
+}
+.u{
+    color:#0CF25D;
+
+}
+.z{
+    color: #02735E;
+}
+.e{
+    color: #038C73;
+}
+.m{
+    color: #36BFB1;
+}
+.a{
+    color: #02735E;
+}
+.r{
+    color: #038C73;
+}
+
+
+/*NAV*/
+nav{
+    text-align: center;
+    border-bottom: 5px solid #57b9af39;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: #038C73;
+    text-decoration: none;
+    padding:50px 200px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    }
+nav li a:hover{
+    background-color: #bfd5d3;
+}
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    background-color: white;
+    }
+.dropdown-menu a{
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.home{
+    font-size: 20px;
+    color:#0CF25D;
+}
+
+/*MAIN*/
+.paises{
+    display: inline;
+    justify-content: center;
+    border-radius: 1px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.61);
+}
+.fotos{
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+p{
+    color:#034159;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #006600;
+}
+
+
+/*SECTION*/
+.container-sobre{
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 5px solid #57b9af39;
+    border-top: 5px solid #57b9af39;
+    box-shadow: 10px 3px 10px rgb(0 0 0 / 0.2)
+}
+.sobre-img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.61);
+}
+.fa-brands{
+    font-size: 50px;
+    padding: 10px;
+}
+.fa-square-facebook{
+    color: #32bfff;
+}
+.fa-square-instagram{
+    color: #c9148b;
+}
+.fa-square-twitter{
+    color: #1d9ff2;
+}
+.container-descricao{
+    display: inline-block;
+}
+/*FOOTER*/
+.footer{
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    background-color: #038c734e;
+    padding-left: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
